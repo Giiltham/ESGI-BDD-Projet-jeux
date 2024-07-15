@@ -319,10 +319,10 @@ namespace SpecFlowProjetJeux.Features
   testRunner.When("Joueur2 marque 3 points", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 36
-  testRunner.And("Joueur2 marque 3 points", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+  testRunner.And("Joueur1 marque 4 points", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 37
-  testRunner.And("Joueur1 marque 1 points", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+  testRunner.And("Joueur2 marque 1 points", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 38
   testRunner.And("Joueur2 marque 1 points", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -530,9 +530,12 @@ namespace SpecFlowProjetJeux.Features
   testRunner.And("Joueur2 marque 2 points", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 73
-  testRunner.Then("Joueur2 doit avoir 1 sets", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.And("Joueur2 marque 1 points", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 74
+  testRunner.Then("Joueur2 doit avoir 1 sets", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 75
   testRunner.And("Joueur2 doit avoir 0 jeux", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -546,7 +549,7 @@ namespace SpecFlowProjetJeux.Features
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Joueur1 remporte le match", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 76
+#line 77
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -566,13 +569,13 @@ namespace SpecFlowProjetJeux.Features
             else
             {
                 this.ScenarioStart();
-#line 77
+#line 78
   testRunner.Given("le match est lancé", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 78
+#line 79
   testRunner.When("Joueur1 gagne 2 sets", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 79
+#line 80
   testRunner.Then("Joueur1 doit remporter le match", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -586,7 +589,7 @@ namespace SpecFlowProjetJeux.Features
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Joueur2 remporte le match", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 81
+#line 82
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -606,16 +609,16 @@ namespace SpecFlowProjetJeux.Features
             else
             {
                 this.ScenarioStart();
-#line 82
+#line 83
   testRunner.Given("le match est lancé", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 83
+#line 84
   testRunner.When("Joueur1 gagne 1 sets", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 84
+#line 85
   testRunner.And("Joueur2 gagne 2 sets", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 85
+#line 86
   testRunner.Then("Joueur2 doit remporter le match", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

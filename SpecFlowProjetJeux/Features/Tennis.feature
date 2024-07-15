@@ -33,8 +33,8 @@ Feature: Tennis
 	Scenario: Joueur2 remporte un jeu par avantage
 		Given le match est lancé
 		When Joueur2 marque 3 points
-		And Joueur2 marque 3 points
-		And Joueur1 marque 1 points
+		And Joueur1 marque 4 points
+		And Joueur2 marque 1 points
 		And Joueur2 marque 1 points
 		And Joueur2 marque 1 points
 		Then Joueur2 doit avoir 1 jeux
@@ -70,6 +70,7 @@ Feature: Tennis
 		And Joueur2 marque 7 points
 		And Joueur1 marque 2 points
 		And Joueur2 marque 2 points
+		And Joueur2 marque 1 points
 		Then Joueur2 doit avoir 1 sets
 		And Joueur2 doit avoir 0 jeux
 
